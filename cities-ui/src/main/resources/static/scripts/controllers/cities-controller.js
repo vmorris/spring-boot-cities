@@ -44,8 +44,8 @@ angular.module('citiesUiApp', ['ngResource', 'ui.bootstrap']).
 
         $scope.init = function() {
             $scope.pageNumber = 1;
-            $scope.itemsPerPage = 15;
-            $scope.maxPageLinks = 15;
+            $scope.itemsPerPage = 25;
+            $scope.maxPageLinks = 25;
             $scope.itemsPerPageOptions = [5, 10, 15, 25, 50];
             $scope.searchCity = {
                 name: ""
